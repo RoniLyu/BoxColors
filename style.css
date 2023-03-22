@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.box {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+}
+
+.button {
+  align-self: center;
+}
+
+button {
+  border: none;
+  background-color: lightgray;
+  padding: 20px 30px;
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+}
